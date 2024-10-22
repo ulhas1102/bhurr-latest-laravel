@@ -13,6 +13,8 @@
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_URI} (.+)/$
     RewriteRule ^ %1 [L,R=301]
+	
+	Redirect 301 /dna /contact-us
 
     # Send Requests To Front Controller...
     RewriteCond %{REQUEST_FILENAME} !-d

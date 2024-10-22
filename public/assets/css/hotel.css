@@ -1,0 +1,86 @@
+.counter {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.counter button {
+  margin: 0 10px;
+}
+.counter span {
+  width: 30px;
+  text-align: center;
+}
+#travellerDropdown {
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.popular__destination__img__container .stay__text {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  color: #fff;
+  z-index: 2;
+}
+.image-slider1 {
+  position: relative;
+}
+.hotel__content .popular__destination__img__container::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  height: 50%; /* Adjust the height to control the fade area */
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+}
+.image-slider1 .owl-dots {
+  text-align: center;
+  margin-top: 10px;
+}
+.image-slider1 .owl-prev,
+.image-slider1 .owl-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #fff !important;
+  color: #000 !important;
+  font-size: 1.5em !important;
+  width: 40px;
+  height: 40px;
+  border-radius: 100% !important;
+  font-weight: bold;
+  padding: 15px !important;
+  text-align: center;
+  box-shadow: 0px 0px 10px 0px #000;
+}
+.image-slider1 .owl-prev:hover,
+.image-slider1 .owl-next:hover {
+  box-shadow: 0px 0px 0px 0px #000;
+  background-color: red !important;
+  color: #fff !important;
+}
+.image-slider1 .owl-prev {
+  left: -30px;
+}
+.image-slider1 .owl-next {
+  right: -30px;
+}
+.image-slider1 button:focus {
+  outline: none;
+}
+.filter__by .form-check {
+  margin-bottom: 10px;
+}
+.filter__by .form-check-input {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+.filter__by .form-check-label {
+  padding-left: 10px;
+}
