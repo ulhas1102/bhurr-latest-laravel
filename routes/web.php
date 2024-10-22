@@ -98,6 +98,9 @@ Route::get('/popular_destination', function () {
 
 
 
+Route::get('ulhas-profile', function () {
+    return view('frontend.ulhas-profile');
+});
 
 
 // seasons page route
@@ -105,6 +108,7 @@ Route::get('/popular_destination', function () {
 Route::get('mahabaleshwar', function () {
     return view('frontend.seasons.mahabaleshwar');
 });
+
 Route::get('alibaug', function () {
     return view('frontend.seasons.alibaug');
 });
