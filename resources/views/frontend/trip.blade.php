@@ -4,6 +4,7 @@
 <style>
   /* Scoping styles to trip-details-page */
 /* this is trip details page */
+  profile-page-add
   .trip-details-page .card {
     margin-top: 20px;
     border-radius: 30px;
@@ -96,10 +97,14 @@
 
   /* Additional styling for responsiveness */
   @media (max-width: 768px) {
+<<<<<<< HEAD
     .trip-details-page .detail-row {
       /* flex-direction: row; */
     }
 
+=======
+    
+>>>>>>> profile-page-add
     .trip-details-page .detail-row div {
       width: 100%;
     }
@@ -464,4 +469,8 @@
       });
     });
   </script>
+<<<<<<< HEAD
   @endsection
+=======
+  @endsection
+>>>>>>> profile-page-add
