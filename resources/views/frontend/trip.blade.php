@@ -96,11 +96,11 @@
 
   /* Additional styling for responsiveness */
   @media (max-width: 768px) {
-    <<<<<<< HEAD .trip-details-page .detail-row {
+    .trip-details-page .detail-row {
       /* flex-direction: row; */
     }
 
-    =======>>>>>>>profile-page-add .trip-details-page .detail-row div {
+    profile-page-add .trip-details-page .detail-row div {
       width: 100%;
     }
 
