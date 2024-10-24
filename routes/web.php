@@ -101,6 +101,9 @@ Route::get('/popular_destination', function () {
 Route::get('ulhas-profile', function () {
     return view('frontend.ulhas-profile');
 });
+Route::get('trip', function () {
+    return view('frontend.trip');
+});
 
 
 // seasons page route
