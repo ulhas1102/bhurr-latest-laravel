@@ -3,6 +3,7 @@
 @section('inline-css')
 <style>
   /* Scoping styles to trip-details-page */
+/* this is trip details page */
   .trip-details-page .card {
     margin-top: 20px;
     border-radius: 30px;
