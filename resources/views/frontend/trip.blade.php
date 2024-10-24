@@ -3,9 +3,8 @@
 @section('inline-css')
 <style>
   /* Scoping styles to trip-details-page */
-/* this is trip details page */
-  profile-page-add
-  .trip-details-page .card {
+  /* this is trip details page */
+  profile-page-add .trip-details-page .card {
     margin-top: 20px;
     border-radius: 30px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -97,15 +96,11 @@
 
   /* Additional styling for responsiveness */
   @media (max-width: 768px) {
-<<<<<<< HEAD
-    .trip-details-page .detail-row {
+    <<<<<<< HEAD .trip-details-page .detail-row {
       /* flex-direction: row; */
     }
 
-=======
-    
->>>>>>> profile-page-add
-    .trip-details-page .detail-row div {
+    =======>>>>>>>profile-page-add .trip-details-page .detail-row div {
       width: 100%;
     }
 
@@ -469,8 +464,5 @@
       });
     });
   </script>
-<<<<<<< HEAD
-  @endsection
-=======
-  @endsection
->>>>>>> profile-page-add
+  <<<<<<< HEAD
+    @endsection=======@endsection>>>>>>> profile-page-add
