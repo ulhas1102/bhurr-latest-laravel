@@ -96,10 +96,7 @@
 
   /* Additional styling for responsiveness */
   @media (max-width: 768px) {
-    .trip-details-page .detail-row {
-      /* flex-direction: row; */
-    }
-
+    
     .trip-details-page .detail-row div {
       width: 100%;
     }
